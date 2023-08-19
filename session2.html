@@ -1,19 +1,38 @@
 <html>
   <head>
     <title>greatest of three number</title>
+    <style>
+      body{
+        background-color:gold;
+        font-size:40px;
+        text-align:center;
+      }
+    
+    </style>
   </head>
   <body>
+    <h1>
+      <center>
+      The Greatest of Three number
+      </center>
+    </h1>
     <script>
     var num1=window.prompt("Enter first value");
       num1=parseInt(num1);
-      var num1=window.prompt("Enter second value");
+      var num2=window.prompt("Enter second value");
       num2=parseInt(num2);
     var num3=window.prompt("Enter third value");
       num3=parseInt(num3);
       if((num1>num2)&&(num1>num3)){
         document.write(num1+"is a greatest number");
       }
-      if((num))
+      if((num2>num1)&&(num2>num3)){
+        document.write(num2+"is a greatest number");
+        
+      }
+      else{
+        document.write(num3+"is a greatest number");
+      }
     </script>
   </body>
 </html>
