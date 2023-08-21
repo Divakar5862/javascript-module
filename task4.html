@@ -1,15 +1,27 @@
 <html>
   <head>
     <title>Table Book</title>
+    <style>
+      body{
+        background-color:skyblue;
+        font-size:30px;
+        text-align:center;
+        
+        
+      }
+    
+    </style>
   </head>
   <body>
+    <h1>
+      Table Book
+    </h1>
     <script>
-    var number=window.prompt("Enter the value");
-      number=parseInt(number);
-        var number=window.prompt("Enter the start");
-      number=parseInt(number);
-        var number=window.prompt("Enter the limit");
-      number=parseInt(number);
+    var value=window.prompt("Enter the value");
+      value=parseInt(value);
+        var limit=window.prompt("Enter the limit");
+      limit=parseInt(limit);
+      var start=1;
       for(start=1;start<=limit;start++){
         document.write("<h2>"+start+"*"+value+"="+start*value);
         
