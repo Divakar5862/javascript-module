@@ -36,5 +36,9 @@ function validation(){
 }
 function readForm(){
   firstname=document.getElementById("faname").value;
-  lastname=document.getE
+  lastname=document.getElementById("lname").value
+  emailid=document.getElementById("mail").value
+  number=document.getElementById("num").value
+  address=document.getElementById("add").value
+  gender=document.getElementById("gen").value
 }
