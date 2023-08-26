@@ -3,7 +3,38 @@ function validation(){
   readForm();
   if(firstname==""){
     alert("please enter your first name");
-    first.focu
+    firstname.focus();
   }
+  if(lastname==""){
+    alert("please enter your last name");
+    lastname.focus();
+    
+  }
+  if(emailid==""){
+  alert("please enter your email id");
+  emailid.focus();
+  }
+  if(number==""){
+    alert("please enter your moblie number");
+    number.focus();
+    
+  }
+  if(address==""){
+    alert("please enter your address");
+    address.focus();
+    
+    
+  }
+  if(gender==""){
+    alert("please enter your gender");
+    gender.focus();
+    
+    
+  }
+  console.log(firstname,lastname,emailid,number,address,gender);
   
+}
+function readForm(){
+  firstname=document.getElementById("faname").value;
+  lastname=document.getE
 }
