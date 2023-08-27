@@ -1,16 +1,14 @@
-#button {
- font-size:20px;
-  background-color:yellow;
-  color:silver;
-  
-}
+
 #button:hover{
   background-color:orange;
 }
 body{
   
-  background-image:url("https://e0.pxfuel.com/wallpapers/543/252/desktop-wallpaper-nature-blur-background.jpg");
+  background-image:url("https://img.freepik.com/premium-photo/working-with-laptop-computer-cactus-copyspace-table-background-top-view_34933-339.jpg");
           background-repeat: no-repeat;
         background-size:cover;
         background-attachment:fixed;
+ text-align:center;
+  font-size:40px;
+  
       }
