@@ -1,0 +1,16 @@
+#button {
+ font-size:20px;
+  background-color:yellow;
+  color:silver;
+  
+}
+#button:hover{
+  background-color:orange;
+}
+body{
+  
+  background-image:url("https://e0.pxfuel.com/wallpapers/543/252/desktop-wallpaper-nature-blur-background.jpg");
+          background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment:fixed;
+      }
