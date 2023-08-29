@@ -46,5 +46,11 @@ document.getElementById("submit").onclick=function(){
   readForm();
   validation();
   alert("datasubmit");
+  firstname=document.getElementById("fname").value="";
+  lastname=document.getElementById("lname").value="";
+  emailid=document.getElementById("mail").value="";
+  number=document.getElementById("num").value="";
+  address=document.getElementById("add").value="";
+  gender=document.getElementById("gen").value="";
   
 }
