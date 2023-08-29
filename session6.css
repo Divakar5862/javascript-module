@@ -1,5 +1,7 @@
 body{
-  backgeound-color:blue;
   font-size:30px;
   font-style:italic;
+  text-align:center;
+  background-image:url("https://i.pinimg.com/474x/b3/60/ed/b360ed03415220710d6bcd91aad267b6.jpg");
+  background-repeat:norepeat;
 }
