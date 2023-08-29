@@ -3,5 +3,14 @@ body{
   font-style:italic;
   text-align:center;
   background-image:url("https://i.pinimg.com/474x/b3/60/ed/b360ed03415220710d6bcd91aad267b6.jpg");
-  background-repeat:norepeat;
+  background-repeat:no-repeat;
+        background-size:cover;
+        background-attachment:fixed;
+
+}
+#submit:hover{
+  background-color:red;
+}
+button{
+  font-size:40px;
 }
