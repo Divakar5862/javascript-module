@@ -1,4 +1,4 @@
-var firstname,lastname,age,previous school name,10th mark,12th mark,course details,gender;
+var firstname,lastname,age,previousschoolname,10thmark,12thmark,coursedetails,gender;
 function validation(){
   readForm();
   if(firstname==""){
@@ -16,22 +16,22 @@ function validation(){
   }
   if(previous school name==""){
     alert("please enter your previous school name");
-    previous school name.focus();
+    previousschoolname.focus();
     
   }
   if(10th mark==""){
     alert("please enter your 10th mark");
-    1oth mark.focus();
+    1othmark.focus();
     
     
   }
     if(12th mark==""){
     alert("please enter your 12th mark ");
-    12th mark.focus();
+    12thmark.focus();
     }
     if(course details==""){
     alert("please enter your course details");
-    course detailsfocus();
+    coursedetailsfocus();
     }
   
   if(gender==""){
@@ -40,17 +40,17 @@ function validation(){
     
     
   }
-  console.log(firstname,lastname,age,previous school name,10th mark,12th mark,course details,gender);
+  console.log(firstname,lastname,age,previousschoolname,10thmark,12thmark,coursedetails,gender);
   
 }
 function readForm(){
   firstname=document.getElementById("fname").value;
   lastname=document.getElementById("lname").value;
   age=document.getElementById("age").value;
-  pervious school name=document.getElementById("sname").value;
-  10th mark=document.getElementById("10mark").value;
-  12th mark=document.getElementById("12mark").value;
-  course details=document.getElementById("course").value;
+  perviousschoolname=document.getElementById("sname").value;
+  10thmark=document.getElementById("10mark").value;
+  12thmark=document.getElementById("12mark").value;
+  coursedetails=document.getElementById("course").value;
   gender=document.getElementById("gen").value
 }
 document.getElementById("submit").onclick=function(){
@@ -60,9 +60,9 @@ document.getElementById("submit").onclick=function(){
   firstname=document.getElementById("fname").value="";
   lastname=document.getElementById("lname").value="";
   age=document.getElementById("age").value="";
-  previous school name=document.getElementById("sname").value="";
-  10th mark=document.getElementById("10mark").value="";
-  12th mark=document.getElementById("12mark").value="";
+  previousschoolname=document.getElementById("sname").value="";
+  10thmark=document.getElementById("10mark").value="";
+  12thmark=document.getElementById("12mark").value="";
   course details=document.getElementById("course").value="";
   gender=document.getElementById("gen").value="";
   
