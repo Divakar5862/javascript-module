@@ -62,7 +62,8 @@ document.getElementById("submit").onclick=function(){
   age=document.getElementById("age").value="";
   previous school name=document.getElementById("sname").value="";
   10th mark=document.getElementById("10mark").value="";
-  12th mark=document.getElementById("12mark").value=""
+  12th mark=document.getElementById("12mark").value="";
+  course details=document.getElementById("course").value="";
   gender=document.getElementById("gen").value="";
   
 }
