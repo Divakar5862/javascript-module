@@ -1,14 +1,29 @@
 <html>
   <head>
     <title>DOM</title>
-    <scri
+    <style>
+      body{
+        text-align:center;
+        
+      }
+    
+    </style>
+    <script>
+    function change(){
+      var text=document.getElementById("he");
+      text.innerHTML="How are you?";
+      
+    }
+    
+    
+    </script>
   </head>
   <body>
     
     <h1 id="he">
       Hello divakar
     </h1>
-    <input type="button" value="click here">
+    <input type="button" value="click here" onclick="change()">
     
     
     
