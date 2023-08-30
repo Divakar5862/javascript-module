@@ -1,10 +1,27 @@
 <html>
   <head>
     <title>DOM</title>
+    <style>
+      body{
+        text-align:center;
+        
+      }
+    
+    </style>
+    <script>
+    function color(){
+      var text=document.getElementById("diva");
+      text.style.color="red";
+      
+      
+    }
+    
+    </script>
   </head>
   <body>
-    <h1>
-      h
+    <h1 id="diva">
+      hi this is divakar
     </h1>
+    <input type="button" value="click here" onclick="color()">
   </body>
 </html>
