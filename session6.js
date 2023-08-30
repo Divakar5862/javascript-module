@@ -45,10 +45,12 @@ function validation(){
 }
 function readForm(){
   firstname=document.getElementById("fname").value;
-  lastname=document.getElementById("lname").value
-  emailid=document.getElementById("mail").value
-  number=document.getElementById("num").value
-  address=document.getElementById("add").value
+  lastname=document.getElementById("lname").value;
+  age=document.getElementById("age").value;
+  pervious school name=document.getElementById("sname").value;
+  10th mark=document.getElementById("10mark").value;
+  12th mark=document.getElementById("12mark").value;
+  course details=document.getElementById("course").value;
   gender=document.getElementById("gen").value
 }
 document.getElementById("submit").onclick=function(){
@@ -57,9 +59,10 @@ document.getElementById("submit").onclick=function(){
   alert("datasubmit");
   firstname=document.getElementById("fname").value="";
   lastname=document.getElementById("lname").value="";
-  emailid=document.getElementById("mail").value="";
-  number=document.getElementById("num").value="";
-  address=document.getElementById("add").value="";
+  age=document.getElementById("age").value="";
+  previous school name=document.getElementById("sname").value="";
+  10th mark=document.getElementById("10mark").value="";
+  12th mark=document.getElementById("12mark").value=""
   gender=document.getElementById("gen").value="";
   
 }
