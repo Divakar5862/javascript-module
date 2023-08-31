@@ -1,8 +1,11 @@
 body{
   background-image:url("https://c4.wallpaperflare.com/wallpaper/871/1013/108/minimalism-red-abstract-digital-art-wallpaper-preview.jpg");
-font-size:60px;
+font-size:30px;
   text-align:center;
   color:white;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
 }
 button{
   font-size:40px;
