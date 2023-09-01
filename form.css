@@ -1,5 +1,5 @@
 body{
-  background-image:url("https://c4.wallpaperflare.com/wallpaper/871/1013/108/minimalism-red-abstract-digital-art-wallpaper-preview.jpg");
+  background-image:url("https://e1.pxfuel.com/desktop-wallpaper/110/217/desktop-wallpaper-stock-trading-trading-thumbnail.jpg");
 font-size:30px;
   text-align:center;
   color:white;
@@ -8,6 +8,10 @@ font-size:30px;
   background-attachment:fixed;
 }
 button{
-  font-size:40px;
+  font-size:20px;
   
+}
+.modal{
+  text-align:center;
+
 }
