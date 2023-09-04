@@ -21,7 +21,9 @@ function mul(){
 }
 function div(){
   var a=parseInt(document.form.fn.value);
-  var b=parseint(document.form.sn.value);
-  var c=a
+  var b=parseInt(document.form.sn.value);
+  var c=a/b;
+  document.form.op.value=c;
+  
   
 }
