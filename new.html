@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Camera Feed</title>
+</head>
+<body>
+    <h1>Live Camera Feed</h1>
+    <video id="camera-feed" autoplay></video>
+    <p>Current Count: <span id="count">0</span></p>
+    <p>Status: <span id="status-text">Normal</span></p>
+
+    <script>
+        // Simulated data
+        let currentCount = 0;
+        let status = "Normal";
+
+        // Update data every 3 seconds (simulating real-time updates)
+        setInterval(updateData, 3000);
+
+        // Function to simulate data updates
+        function updateData() {
+            // Simulate data updates
+            currentCount = Math.floor(Math.random() * 100);
+            status = currentCount > 80 ? "Crowded" : "Normal";
+
+            // Update the dashboard with new data
+            document.getElementById("count").textContent = currentCount;
+            document.getElementById("status-text").textContent = status;
+        }
+
+        // Access the user's camera and display the live feed
+        async function initCamera() {
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                const videoElement = document.getElementById("camera-feed");
+                videoElement.srcObject = stream;
+            } catch (error) {
+                console.error("Error accessing camera:", error);
+            }
+        }
+
+        // Initialize the camera feed when the page loads
+        window.addEventListener("load", initCamera);
+    </script>
+</body>
+</html>
