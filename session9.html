@@ -1,6 +1,17 @@
 <html>
   <head>
     <title>session9</title>
+    <style>
+      div{
+        margin=30px;
+        text-align:center;
+        border:solid;
+        color:gold;
+        font-size:30px;
+        
+      }
+    
+    </style>
   </head>
   <body>
     <h1>
@@ -26,11 +37,23 @@
         </tr>
         <tr>
         <td>
-          emailid:<input 
+          emailid:<input type="text" id="mail1" value="" size="30">
           </td>
         
         </tr>
       </table>
     </div>
+    <button onclick="myFunction()">
+     click 
+    </button>
+    <script>
+    function myFunction(){
+      document.getElementById("uname1").value=document.getElementById("uname").value;
+      document.getElementById("pass1").value=document.getElementById("pass").value;
+      document.getElementById("mail1").value=document.getElementById("mail").value;
+      
+    }
+    
+    </script>
   </body>
 </html>
