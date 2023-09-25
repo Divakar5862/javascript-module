@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>session9a</title>
+    <script>
+    var img="null";
+      function init(){
+        img =document.getElementById('hum1');
+        img.style.position='relative';
+        img.style.left='50px';
+        
+      }
+      function moveleft(){
+        img.style.left=parseInt(img.style.left)+100+'px';
+        
+      }
+      window.onload=init;
+    </script>
+  </head>
+  <body>
+    <h1>
+      car image
+    </h1>
+    <form>
+     <img id="hum1" src="https://media.istockphoto.com/id/1294369195/video/walking-black-young-man-cartoon-animation-loop-animation.jpg?s=640x640&k=20&c=1rhAo9m4fXlsrpqjHRQbrIabQr6nVrtjlpVQRL3kWZU=">
+     <img id="hum2" src=""
+      <center>
+      <p>
+        click the below button to move the left
+        </p>
+        <input type="button" value="move" size="30" onclick="moveleft()">;
+      </center>
+    </form>
+  </body>
+</html>
