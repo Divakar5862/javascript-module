@@ -1,14 +1,27 @@
 <html>
   <head>
     <title>dialog box</title>
+  <script>
+    function getvalue(){
+      var retVal=prompt("enter your name:","your result");
+      document.write("your result is:"+retVal);
+      
+    }
+    
+    </script>
   </head>
   <body>
+    <center>
     <h1>
       dialog box using javascript
     </h1>
+    </center>
     <form>
-      <input type="button" value="clickme" onclick="get"
+      <input type="button" value="clickme" onclick="getvalue();">
       
     </form>
+    <p>
+      click the following button to the result
+    </p>
   </body>
 </html>
