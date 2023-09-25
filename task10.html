@@ -4,7 +4,20 @@
     <script>
     var img="null";
       function init(){
-        img =document.getElementById('hum1');
+        img =document.getElementById('hum1''hum2');
+        img.style.position='relative';
+        img.style.left='50px';
+        
+      }
+      function moveleft(){
+        img.style.left=parseInt(img.style.left)+100+'px';
+        
+      }
+      window.onload=init;
+      
+      var img="mull";
+      function init(){
+        img =document.getElementById('hum2');
         img.style.position='relative';
         img.style.left='50px';
         
@@ -18,13 +31,14 @@
   </head>
   <body>
     <h1>
-      car image
+      Human Genration
     </h1>
     <form>
+      <img id="hum2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqUc_Zx87bmbU78vQNJPkOOodozuHXf34u5OqsaNAecITobqPTmT_j7Ktl1iLAz4PFrx0&usqp=CAU">
+     
      <img id="hum1" src="https://media.istockphoto.com/id/1294369195/video/walking-black-young-man-cartoon-animation-loop-animation.jpg?s=640x640&k=20&c=1rhAo9m4fXlsrpqjHRQbrIabQr6nVrtjlpVQRL3kWZU=">
-     <img id="hum2" src=""
       <center>
-      <p>
+        <p>
         click the below button to move the left
         </p>
         <input type="button" value="move" size="30" onclick="moveleft()">;
