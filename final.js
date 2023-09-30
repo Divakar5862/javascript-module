@@ -12,33 +12,32 @@ signUpLink.addEventListener('click', () => {
 signInLink.addEventListener('click', () => {
     wrapper.classList.add('animated-signup');
     wrapper.classList.remove('animated-signin');
-})
+});
 
-ick event listener for the login button
 loginForm.addEventListener('submit', (event) => {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
     const username = loginForm.querySelector('input[type="text"]').value;
     const password = loginForm.querySelector('input[type="password"]').value;
 
     if (username && password) {
-        alert('Login data submitted.'); // Display alert message
-        // You can also add an AJAX request here to submit the data to the server
+        alert('Login data submitted.'); 
+      
     } else {
-        alert('Please fill in all fields.'); // Display an error alert if fields are not filled
+        alert('Please fill in all fields.'); 
     }
 });
 
-// Add click event listener for the signup button
+
 signupForm.addEventListener('submit', (event) => {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
     const username = signupForm.querySelector('input[type="text"]').value;
     const email = signupForm.querySelector('input[type="email"]').value;
     const password = signupForm.querySelector('input[type="password"]').value;
 
     if (username && email && password) {
-        alert('Signup data submitted.'); // Display alert message
-        // You can also add an AJAX request here to submit the data to the server
+        alert('Signup data submitted.'); 
+      
     } else {
-        alert('Please fill in all fields.'); // Display an error alert if fields are not filled
+        alert('Please fill in all fields.'); 
     }
 });
