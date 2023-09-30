@@ -7,12 +7,15 @@ let wrapper = document.querySelector('.wrapper'),
 signUpLink.addEventListener('click', () => {
     wrapper.classList.add('animated-signin');
     wrapper.classList.remove('animated-signup');
+    signupForm.reset(); 
 });
 
 signInLink.addEventListener('click', () => {
     wrapper.classList.add('animated-signup');
     wrapper.classList.remove('animated-signin');
+    loginForm.reset(); 
 });
+
 
 loginForm.addEventListener('submit', (event) => {
     event.preventDefault(); 
@@ -21,7 +24,8 @@ loginForm.addEventListener('submit', (event) => {
 
     if (username && password) {
         alert('Login data submitted.'); 
-      
+        loginForm.reset(); 
+        
     } else {
         alert('Please fill in all fields.'); 
     }
@@ -36,7 +40,8 @@ signupForm.addEventListener('submit', (event) => {
 
     if (username && email && password) {
         alert('Signup data submitted.'); 
-      
+        signupForm.reset(); 
+       
     } else {
         alert('Please fill in all fields.'); 
     }
